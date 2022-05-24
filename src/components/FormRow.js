@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const FormRow = ({name,type,value,handleChange,labelText}) => {
   return (
@@ -10,4 +10,4 @@ const FormRow = ({name,type,value,handleChange,labelText}) => {
   )
 }
 
-export default FormRow
+export default FormRow;

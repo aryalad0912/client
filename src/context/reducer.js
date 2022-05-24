@@ -75,13 +75,7 @@ const reducer = (state,action) => {
             alertText:action.payload.msg
         }
     }
-
-
-
-
-
-
-    throw new Error(`no action : ${action.type}`)
+throw new Error(`no action : ${action.type}`)
 }
 
 export default reducer
